@@ -1,0 +1,14 @@
+# Dependencias
+node_modules/
+vendor/
+
+# Configuración local
+config/conexion.php
+admin/config/conexion.php
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
