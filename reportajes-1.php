@@ -14,7 +14,7 @@ Author URL: http://w3layouts.com
 <body>
 
 <?php
-require_once __DIR__ . '/../admin/config/conexion.php';
+require_once __DIR__ . '/admin/config/conexion.php'; 
 
 $por_pagina = 9;
 $pagina = isset($_GET['pagina']) ? (int)$_GET['pagina'] : 1;

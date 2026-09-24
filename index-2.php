@@ -5,7 +5,7 @@ Author URL: http://w3layouts.com
 <!doctype html>
 <html lang="en">
   
-<!-- Mirrored from www.dialogoydesarrollo.com.pe/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2026 16:50:04 GMT -->
+<!-- Mirrored from www.dialogoydesarrollo.com.pe/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Sep 2026 16:50:25 GMT -->
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -25,10 +25,6 @@ Author URL: http://w3layouts.com
 <header id="site-header" class="fixed-top">
   <div class="container">
       <nav class="navbar navbar-expand-lg stroke">
-          <!--<a class="navbar-brand" href="index.html">
-              <span class="fa fa-video-camera"></span> V-Conference
-          </a>
-           if logo is image enable this   -->
       <a class="navbar-brand" href="#index.html">
           <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:75px;" />
       </a> 
@@ -49,7 +45,7 @@ Author URL: http://w3layouts.com
                       <a class="nav-link" href="#actualidad">Actualidad</a>
                   </li>
 				  <li class="nav-item @@about__active">
-                      <a class="nav-link" href="reportajes-1.php">Reportajes</a>
+                      <a class="nav-link" href="reportajes-1.html">Reportajes</a>
                   </li>
 				  <li class="nav-item @@about__active">
                       <a class="nav-link" href="about.html">Podcast</a>
@@ -73,7 +69,7 @@ Author URL: http://w3layouts.com
 </header>
 <!-- //header -->
 
-<?php require_once __DIR__ . '/../admin/config/conexion.php'; ?>
+<?php require_once __DIR__ . '/admin/config/conexion.php'; ?>
 
 <section class="breadcrumb-area py-sm-5 py-4">
     <div class="container">

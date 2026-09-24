@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../admin/config/conexion.php';
+require_once __DIR__ . '/admin/config/conexion.php';
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
