@@ -20,3 +20,11 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /htdocs/
+          exclude: |
+            **/node_modules/**
+            **/.git/**
+            **/.gitignore
+            **/*.md
+            **/estructura_completa.txt
+            **/dialogoydesarrollo.sql
+            **/package-lock.json
